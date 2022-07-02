@@ -1,0 +1,344 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: space-between; 
+
+    color: #FFFFFF;
+    background-color: rgba(242,120,92,0.7);
+    padding: 25px 120px;
+    padding: 25px 120p 34px 120px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-self: center;
+    text-decoration: none;
+}
+nav li {
+    display: block;
+    padding: 5px 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+}
+
+.Login {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+button {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0D606F;
+    color: #FFFFFF;
+    
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+}
+
+form > button {
+    padding: 10px 32.5px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+color: #FFFFFF;
+}
+
+section.preview {
+    margin: 10px 380px 300px 120px;
+    color: #FFFFFF;
+    font-family: 'Aleo';
+    font-style: italic;
+    padding-bottom: 30px;
+}
+h1 {
+    margin-top: 30px;
+    font: 80px 'Aleo';
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+}
+input {
+    background-color: rgba(255 ,255, 255, 0);
+    border: none;
+   
+}
+input::placeholder {
+    color: #F2785C;
+    font-family: 'Aleo';
+    font-style: italic;
+}
+form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: space-between; 
+
+    background-color: rgba(255 ,255, 255, 0.7);
+    padding: 15px 25px;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+form > input {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 19px;
+}
+
+section.steps {
+    margin: 300px 132px 100px 131px;
+    /* margin-top: 300px; */
+}
+div.steps {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; 
+    justify-content: space-between;
+    
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+div.steps > div {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    font: 40px;
+    color: #F2785C;
+}
+
+.Container {
+    width: inherit;
+    overflow: hidden;
+}
+
+div#Slider {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px; */
+    position: relative;
+    right: 1400px; 
+    
+    transition: all ease 1s;
+    width: 4240px;
+    /* overflow-x: scroll;
+    scroll-snap-type: x mandatory; */
+    /* text-align: center; */
+}
+div#Slider > div > img {
+    border-radius: 16px;   
+}
+
+#pin2 {
+    background-color: #F2785C;
+}
+
+.underPhoto {
+    position: absolute;
+    z-index: 10;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    bottom: 0px;
+    margin: 40px;
+    margin-left: 15px;
+}
+
+div.pins {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.pins > button{
+    margin: 0 0;
+    padding: 0 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(242, 120, 92, 0.5);
+}
+
+/* #pin1 {
+    background: rgba(242, 120, 92, 1);
+} */
+
+div.StoryTable {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+
+    font-family: 'Aleo';
+    padding: 40px 120px;
+    padding-bottom: 0;
+}
+
+div.StoriessTRAV {
+    width: 1444px;
+    color: #0D606F;
+    background-color: rgba(255,255,255,0.7);
+    padding-bottom: 40px;
+}
+
+img.PhotoStory {
+    border-radius: 16px;
+    box-shadow:0px 4px 4px #0D606F;
+}
+
+li > a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    /* box-shadow: 10px 10px 10px #0D606F; */
+}
+
+.StoryTable > img.PhotoStory:hover {
+    box-shadow: 20px 20px 10px #0D606F;
+    position: relative;
+    /* width: 450px; */
+}
+
+button:hover {
+    background-color: red;
+}
+
+p > a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    /* align-items: center;  */
+    justify-content: flex-end;
+}
+
+ul.footerLogo {
+    padding-right: 120px;
+    width: 100px;
+    display: flex;
+    margin: 14px 0;
+    flex-wrap: nowrap;
+}
+
+ul.footerLogo > li{
+    display: block;
+    
+    
+     
+}
+
+div.Right {
+    position: relative;
+    margin: 20px auto;
+    margin-left: 590px;
+    justify-content: center;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.StoryTable > div > p {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h3 {
+    margin: 0 0;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #0D606F;
+}
+.RSlogo {
+    display: block;
+    position: absolute;
+    height: 30px;
+    margin: 10px 0 0 120px;
+    z-index: 2;
+}
+
+.GitHublogo {
+    display: block;
+    position: absolute;
+    height: 30px;
+    margin: 10px 0 0 220px;
+    z-index: 2;
+}
+
+.mobile {
+    display: none;
+}
+
+.topBar {
+    display: none;
+}

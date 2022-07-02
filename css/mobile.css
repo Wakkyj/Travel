@@ -1,0 +1,77 @@
+@media screen and (max-width: 400px) {
+    body {
+        width: 360px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+        
+    }
+
+    html {
+        border-radius: 30px;
+    }
+    
+    nav {
+        display: none;
+    }
+    header {
+        padding: 0 0;
+        margin: 0 0;
+        width: inherit;
+        background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%);
+        box-shadow: none;
+    }
+
+    div.StoryTable {
+        width: 360px;
+        margin: 0 0;
+        padding: 10px 15px;
+        font-size: 9px;
+    }
+    
+    div.Stories {
+        width: 100%;
+    }
+    div.Stories > img {
+        width: 100%;
+    }
+
+
+    div.StoryTable > img {
+        width: 100%;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    button {
+        font-size: 11px ;
+        padding: 7.5px 9px;
+    }
+
+    section.Planning {
+        font-weight: 1em ;
+        padding: 0 0;
+        margin: 10px 0;
+    }
+
+    section.Planning > p{
+        display: none;
+    }
+
+    form {
+        margin: 0 0;
+    }
+
+    section.Steps {
+        margin: 80px auto 20px auto;
+    }
+
+    div.DynamicAlbom {
+        width: inherit;
+    }
+
+    div.DynamicAlbom > img {
+        width: 100%;
+    }
+}
